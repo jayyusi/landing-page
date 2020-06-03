@@ -1,0 +1,102 @@
+#header {
+    height: 80px;
+    width: 100%;
+
+}
+
+#header-img {
+    width: 300px;
+    display: inline-block;
+}
+
+#nav-bar {
+    float: right;
+    margin: 0 auto;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px;
+    font-size: 14pt;
+    font-style: bold;
+    font-variant: small-caps;
+    font-weight: normal;
+    border-bottom: solid 1px transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: solid 1px black;
+}
+
+#form {
+    text-align: center;
+}
+
+#form input {
+    display: block;
+    margin: 15px auto;
+}
+
+.button {
+    background-color: gold;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    font: bold normal normal 1.2em/2em "times new roman", arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #ff8c00;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+#premium-materials, #fast-shipping, #quality-assurance{
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span{
+    font: 20pt monospace, serif, sans-serif;
+}
+
+#how-it-works{
+    text-align: center;
+}
+
+iframe{
+    border: outset 4px orange;
+    border-radius: 20px 10px;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+}
+
+.price{
+    border: solid 1px black;
+    width: 300px;
+    text-align: center;
+    background-color: #eee;
+    margin: 10px;
+}
+
+h3.title{
+    background-color: #abc;
+    margin: 0;
+    line-height: 50px;
+}
