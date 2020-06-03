@@ -7,3 +7,8 @@
     font: small-caps 11pt georgia, serif, sans-serif;
     margin: 15px;
 }
+
+.myfooter a:visited{
+  color: white;
+  text-decoration: none;
+}
